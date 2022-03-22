@@ -1,6 +1,6 @@
 # Trybe-wallet
 
-![IMG_0705](https://user-images.githubusercontent.com/91337493/159590930-bdbd962f-3737-4e81-adff-4edbada0aed5.jpg)
+![IMG_0708](https://user-images.githubusercontent.com/91337493/159592491-967ba28a-fc03-4c61-8da9-136285a707d1.jpg)
 
 # Habilidades
 
