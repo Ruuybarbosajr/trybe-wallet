@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.table__container {
+  width: 100%;
+}
+
+.container__table {
+  background-color: #83868a;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.table__head--row th {
+  background-color: #373e47;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.table__body--row td {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  animation: renderRowTable .4s forwards ease-out;
+}
+
+.row-black td {
+  background-color: #373e47;
+  color: white;
+}
+
+.row-white td {
+  background-color: white;
+  color: black;
+}
+
+.body__button--delete {
+  background-color: #f64646;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  margin: 0 5px;
+  padding: 5px;
+  width: 45%;
+}
+
+.body__button--delete:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.445);
+}
+
+.body__button--edit {
+  background-color: #fdb500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 5px;
+  width: 45%;
+}
+
+.body__button--edit:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.445);
+}
+
+@keyframes renderRowTable {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

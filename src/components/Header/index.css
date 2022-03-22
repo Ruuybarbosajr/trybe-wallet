@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header__container {
+  align-items: center;
+  background-color: #96ce98;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.445);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__container--logo {
+  margin-left: 20px;
+  width: 10%;
+}
+
+.container__logo {
+  width: 100%;
+}
+
+.header__container--data {
+  align-items: center;
+  display: flex;
+  height: 80px;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.header__container--data p {
+  margin-right: 10px;
+}
+
+.container__data--email h4 {
+  margin-right: 10px;
+}
+
+.container__data--email {
+  display: flex;
+  font-size: 20px;
+}
+
+.container__data--total {
+  display: flex;
+  font-size: 20px;
+}
